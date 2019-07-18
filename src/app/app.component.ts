@@ -2,7 +2,6 @@ import {Component, OnInit} from '@angular/core';
 import {Subject} from 'rxjs';
 import {Observable} from 'rxjs';
 import {WebcamImage, WebcamInitError, WebcamUtil} from 'ngx-webcam';
-import { HttpClient } from 'selenium-webdriver/http';
 import { HttpService } from './http.service';
 
 @Component({
